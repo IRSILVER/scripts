@@ -1,0 +1,308 @@
+
+
+local changes = Instance.new("ScreenGui")
+local mainf = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local title = Instance.new("TextLabel")
+local log1 = Instance.new("TextLabel")
+local close = Instance.new("TextButton")
+local log3 = Instance.new("TextLabel")
+local log4 = Instance.new("TextLabel")
+local log5 = Instance.new("TextLabel")
+local log6 = Instance.new("TextLabel")
+local log7 = Instance.new("TextLabel")
+local log8 = Instance.new("TextLabel")
+local log9 = Instance.new("TextLabel")
+local log10 = Instance.new("TextLabel")
+local log2 = Instance.new("TextLabel")
+local discord = Instance.new("TextLabel")
+local discord_2 = Instance.new("TextLabel")
+
+
+changes.Name = "changes"
+changes.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+changes.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+mainf.Name = "mainf"
+mainf.Parent = changes
+mainf.AnchorPoint = Vector2.new(0.5, 0.5)
+mainf.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+mainf.BackgroundTransparency = 1
+mainf.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mainf.BorderSizePixel = 0
+mainf.Position = UDim2.new(0.840728462, 0, 0.481920213, 0)
+mainf.Size = UDim2.new(0, 383, 0, 399)
+
+UICorner.Parent = mainf
+
+title.Name = "title"
+title.Parent = mainf
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderSizePixel = 0
+title.Size = UDim2.new(0, 383, 0, 44)
+title.Font = Enum.Font.SourceSansBold
+title.Text = "CHANGE LOGS"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextSize = 24.000
+title.TextWrapped = true
+
+log1.Name = "log1"
+log1.Parent = mainf
+log1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+log1.BackgroundTransparency = 1.000
+log1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+log1.BorderSizePixel = 0
+log1.Position = UDim2.new(0.0626631826, 0, 0.125313282, 0)
+log1.Size = UDim2.new(0, 332, 0, 30)
+log1.Font = Enum.Font.SourceSans
+log1.TextColor3 = Color3.fromRGB(255, 255, 255)
+log1.TextSize = 24.000
+log1.TextWrapped = true
+log1.TextXAlignment = Enum.TextXAlignment.Left
+
+close.Name = "close"
+close.Parent = mainf
+close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+close.BackgroundTransparency = 1.000
+close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+close.BorderSizePixel = 0
+close.Position = UDim2.new(0.861618817, 0, 0.00626566401, 0)
+close.Size = UDim2.new(0, 43, 0, 38)
+close.ZIndex = 2
+close.Font = Enum.Font.SourceSansBold
+close.Text = "X"
+close.TextColor3 = Color3.fromRGB(255, 255, 255)
+close.TextSize = 30.000
+
+log3.Name = "log3"
+log3.Parent = mainf
+log3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+log3.BackgroundTransparency = 1.000
+log3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+log3.BorderSizePixel = 0
+log3.Position = UDim2.new(0.0626631826, 0, 0.275689214, 0)
+log3.Size = UDim2.new(0, 332, 0, 30)
+log3.Font = Enum.Font.SourceSans
+log3.TextColor3 = Color3.fromRGB(255, 255, 255)
+log3.TextSize = 24.000
+log3.TextWrapped = true
+log3.TextXAlignment = Enum.TextXAlignment.Left
+
+log4.Name = "log4"
+log4.Parent = mainf
+log4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+log4.BackgroundTransparency = 1.000
+log4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+log4.BorderSizePixel = 0
+log4.Position = UDim2.new(0.0626631826, 0, 0.350877196, 0)
+log4.Size = UDim2.new(0, 332, 0, 30)
+log4.Font = Enum.Font.SourceSans
+log4.TextColor3 = Color3.fromRGB(255, 255, 255)
+log4.TextSize = 24.000
+log4.TextWrapped = true
+log4.TextXAlignment = Enum.TextXAlignment.Left
+
+log5.Name = "log5"
+log5.Parent = mainf
+log5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+log5.BackgroundTransparency = 1.000
+log5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+log5.BorderSizePixel = 0
+log5.Position = UDim2.new(0.0626631826, 0, 0.426065177, 0)
+log5.Size = UDim2.new(0, 332, 0, 30)
+log5.Font = Enum.Font.SourceSans
+log5.TextColor3 = Color3.fromRGB(255, 255, 255)
+log5.TextSize = 24.000
+log5.TextWrapped = true
+log5.TextXAlignment = Enum.TextXAlignment.Left
+
+log6.Name = "log6"
+log6.Parent = mainf
+log6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+log6.BackgroundTransparency = 1.000
+log6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+log6.BorderSizePixel = 0
+log6.Position = UDim2.new(0.0626631826, 0, 0.501253128, 0)
+log6.Size = UDim2.new(0, 332, 0, 30)
+log6.Font = Enum.Font.SourceSans
+log6.TextColor3 = Color3.fromRGB(255, 255, 255)
+log6.TextSize = 24.000
+log6.TextWrapped = true
+log6.TextXAlignment = Enum.TextXAlignment.Left
+
+log7.Name = "log7"
+log7.Parent = mainf
+log7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+log7.BackgroundTransparency = 1.000
+log7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+log7.BorderSizePixel = 0
+log7.Position = UDim2.new(0.0626631826, 0, 0.576441109, 0)
+log7.Size = UDim2.new(0, 332, 0, 30)
+log7.Font = Enum.Font.SourceSans
+log7.TextColor3 = Color3.fromRGB(255, 255, 255)
+log7.TextSize = 24.000
+log7.TextWrapped = true
+log7.TextXAlignment = Enum.TextXAlignment.Left
+
+log8.Name = "log8"
+log8.Parent = mainf
+log8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+log8.BackgroundTransparency = 1.000
+log8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+log8.BorderSizePixel = 0
+log8.Position = UDim2.new(0.0626631826, 0, 0.649122834, 0)
+log8.Size = UDim2.new(0, 332, 0, 30)
+log8.Font = Enum.Font.SourceSans
+log8.TextColor3 = Color3.fromRGB(255, 255, 255)
+log8.TextSize = 24.000
+log8.TextWrapped = true
+log8.TextXAlignment = Enum.TextXAlignment.Left
+
+log9.Name = "log9"
+log9.Parent = mainf
+log9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+log9.BackgroundTransparency = 1.000
+log9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+log9.BorderSizePixel = 0
+log9.Position = UDim2.new(0.0626631826, 0, 0.724310756, 0)
+log9.Size = UDim2.new(0, 332, 0, 30)
+log9.Font = Enum.Font.SourceSans
+log9.TextColor3 = Color3.fromRGB(255, 255, 255)
+log9.TextSize = 24.000
+log9.TextWrapped = true
+log9.TextXAlignment = Enum.TextXAlignment.Left
+
+log10.Name = "log10"
+log10.Parent = mainf
+log10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+log10.BackgroundTransparency = 1.000
+log10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+log10.BorderSizePixel = 0
+log10.Position = UDim2.new(0.0626631826, 0, 0.799498737, 0)
+log10.Size = UDim2.new(0, 332, 0, 30)
+log10.Font = Enum.Font.SourceSans
+log10.TextColor3 = Color3.fromRGB(255, 255, 255)
+log10.TextSize = 24.000
+log10.TextWrapped = true
+log10.TextXAlignment = Enum.TextXAlignment.Left
+
+
+log2.Name = "log2"
+log2.Parent = mainf
+log2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+log2.BackgroundTransparency = 1.000
+log2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+log2.BorderSizePixel = 0
+log2.Position = UDim2.new(0.0626631826, 0, 0.200501248, 0)
+log2.Size = UDim2.new(0, 332, 0, 30)
+log2.Font = Enum.Font.SourceSans
+log2.TextColor3 = Color3.fromRGB(255, 255, 255)
+log2.TextSize = 24.000
+log2.TextWrapped = true
+log2.TextXAlignment = Enum.TextXAlignment.Left
+
+
+discord.Name = "discord"
+discord.Parent = mainf
+discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discord.BackgroundTransparency = 1.000
+discord.BorderColor3 = Color3.fromRGB(0, 0, 0)
+discord.BorderSizePixel = 0
+discord.Position = UDim2.new(0, 0, 0.874686718, 0)
+discord.Size = UDim2.new(0, 383, 0, 25)
+discord.Font = Enum.Font.SourceSansBold
+discord.Text = "DISCORD.GG/Fg8StZy4UY"
+discord.TextColor3 = Color3.fromRGB(255, 255, 255)
+discord.TextSize = 24.000
+discord.TextWrapped = true
+
+discord_2.Name = "youtube"
+discord_2.Parent = mainf
+discord_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+discord_2.BackgroundTransparency = 1.000
+discord_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+discord_2.BorderSizePixel = 0
+discord_2.Position = UDim2.new(0, 0, 0.937343359, 0)
+discord_2.Size = UDim2.new(0, 383, 0, 17)
+discord_2.Font = Enum.Font.SourceSansBold
+discord_2.Text = "YOUTUBE.COM/C/NTOEXPLOITS"
+discord_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+discord_2.TextSize = 24.000
+discord_2.TextWrapped = true
+
+
+log1.Text = ""
+log2.Text = ""
+log3.Text = ""
+log4.Text = ""
+log5.Text = ""
+log6.Text = ""
+log7.Text = ""
+log8.Text = ""
+log9.Text = ""
+log10.Text = ""
+
+local TweenService = game:GetService("TweenService")
+
+local tweenInfo = TweenInfo.new(
+     2, -- Duration in seconds
+     Enum.EasingStyle.Linear, -- Easing style
+     Enum.EasingDirection.InOut -- Easing direction
+)
+
+local mainfTween = TweenService:Create(mainf, tweenInfo, {BackgroundTransparency = 0.2})
+mainfTween:Play()
+wait(3)
+local function closeframe()
+
+    changes:Destroy()
+    print("NTO; Destroyed ChangeLogs ScreenGui")
+
+end
+
+close.MouseButton1Click:Connect(closeframe)
+
+local function animateTextTypewriter(label, text)
+    for i = 1, #text do
+        label.Text = string.sub(text, 1, i)
+        wait(0.05) -- Adjust the delay as needed
+    end
+end
+
+
+
+
+
+local log1txt =  "- Moved the frame to the top right corner."
+local log2txt =  "- You now earn money 2 times as fast."
+local log3txt =  "- Fixed major issues."
+local log4txt =  ""
+local log5txt =  ""
+local log6txt =  ""
+local log7txt =  ""
+local log8txt =  ""
+local log9txt =  ""
+local log10txt = ""
+
+
+animateTextTypewriter(log1,log1txt)
+wait(.10)
+animateTextTypewriter(log2,log2txt)
+wait(.10)
+animateTextTypewriter(log3,log3txt)
+wait(.10)
+animateTextTypewriter(log4,log4txt)
+wait(.10)
+animateTextTypewriter(log5,log5txt)
+wait(.10)
+animateTextTypewriter(log6,log6txt)
+wait(.10)
+animateTextTypewriter(log7,log7txt)
+wait(.10)
+animateTextTypewriter(log8,log8txt)
+wait(.10)
+animateTextTypewriter(log9,log9txt)
+wait(.10)
+animateTextTypewriter(log10,log10txt)
